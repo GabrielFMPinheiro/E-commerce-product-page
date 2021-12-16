@@ -675,11 +675,15 @@ button {
 
 @media screen and (min-width: 1200px) {
   header h1 {
-    margin-right: 4.2rem;
+    margin-right: 3.5rem;
   }
 
   main {
     padding: 5rem 8rem 0;
+  }
+
+  ul {
+    gap: 2rem;
   }
 }
 
