@@ -160,20 +160,22 @@ main {
   padding: 1.2rem 1.5rem;
 }
 
-.info-box h3 {
+.info-box .company {
   color: var(--orange);
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.info-box h1 {
+.info-box .product-name {
   color: var(--dark-blue);
   font-size: 1.7rem;
-  margin-top: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
 
-.info-box p {
+.info-box .description {
   color: var(--dark-grayish-blue);
   font-size: 0.95rem;
   line-height: 1.5rem;
@@ -387,13 +389,13 @@ button {
   .header-container {
     border-bottom: 0.01rem solid hsla(220, 14%, 75%, 0.3);
     margin: auto;
-    padding: 2rem 0 1.7rem;
-    width: 83%;
+    padding: 1.5rem 0 2rem;
+    width: 78%;
   }
 
   header h1 {
     font-size: 2.2rem;
-    margin: 0 2.2rem 0.2rem 0;
+    margin: 0 2rem 0.2rem 0;
   }
 
   nav {
@@ -410,7 +412,7 @@ button {
   ul {
     align-items: center;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-right: auto;
     padding: 0;
   }
@@ -537,18 +539,18 @@ button {
     padding: 2.5rem 4rem 2rem 0;
   }
 
-  .info-box h3 {
+  .info-box .company {
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
   }
 
-  .info-box h1 {
+  .info-box .product-name {
     font-size: 2.8rem;
     line-height: 2.9rem;
-    margin-top: 1.4rem;
+    margin-top: 0.8rem;
   }
 
-  .info-box p {
+  .info-box .description {
     font-size: 1rem;
     line-height: 1.6rem;
     margin: 2.5rem 0 1.6rem;
@@ -683,17 +685,17 @@ button {
 
 @media screen and (min-width: 1400px) {
   main {
-    padding: 4.8rem 10rem 0;
+    padding: 5rem 10rem 0;
   }
 
   .image-box {
-    width: 26rem;
+    width: 26.5rem;
   }
 
   .modal-thumbs-box,
   .thumbs-box {
-    height: 5rem;
-    width: 5rem;
+    height: 5.1rem;
+    width: 5.1rem;
   }
 
   .imgs-option-box {
